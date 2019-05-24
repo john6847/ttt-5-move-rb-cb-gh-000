@@ -8,8 +8,8 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  if(input != nil)
-    input = input.to_i - 1
+  if(input.equal? nil)
+    return -1
   end
-  return -1
+  input = input.to_i - 1
 end
