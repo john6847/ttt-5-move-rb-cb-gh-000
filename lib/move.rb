@@ -12,6 +12,5 @@ def input_to_index(input)
 end
 
 def move(board, index, value="X")
-  puts index.class
   board[index] = value
 end
